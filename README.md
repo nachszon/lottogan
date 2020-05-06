@@ -1,7 +1,1 @@
-Program do generowania całkowitych liczb pseudolosowych.
-Losowanych jest 6 liczb z puli 49 na wzór dużego lotka
-Autor ani nie gwarantuje wygranej ani nie ponosi kosztów
-ewentualnych strat poniesionych w wyniku używania programu.
-Jednak w przypadku wygranej w dużego lotka przy użyciu tej maszyny losującej
-zwyczajna grzeczność nakazuje podzielić się z autorem programu w stosunku 1:3.
-Trzy części dla autora programu, jedna dla gracza :)
+A program to generating integer pseudo-random numbers. Six numbers from the 49 pool are drawn (like in lotto). The author neither guarantees the prize nor incurs any costs incurred as a result of using the program. However, if you win a alot of many using this draw machine, ordinary politeness requires you to share the program with the author in a 1: 3 ratio. Three parts for the author of the program, one for the player :)
