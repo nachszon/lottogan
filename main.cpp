@@ -1,5 +1,5 @@
 /*lottogan
-version 1.1
+version 1.2
 author: Nachszon
 Program to generate random numbers
 may 2020
@@ -8,10 +8,16 @@ may 2020
 Release Notes
 Numbers are located in array
 Duplicate are remove
+
+Release Notes (01.06.2020)
+sort numbers implementation
+
 */
 
 #include <iostream>
-#include <time.h>
+#include <ctime>
+#include<functional>
+#include<algorithm>
 
 using namespace std;
 
@@ -114,6 +120,8 @@ void randomNumbersHandlerClass::m_create_random_numbers_array(int taking_number)
     system("cls");
 
     cout<<"your lucky numbers:\n"<<endl;
+
+    sort (tab_rand_numb,tab_rand_numb+taking_number);
 
     //show array with random numbers
     for (int i=0;i<taking_number;i++){
