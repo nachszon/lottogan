@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1600692403 source:d:\programowanie\projekty\lottogan\lottogan_1.3\lottogan_1.3\main.cpp
-	<iostream>
-	<ctime>
-	<functional>
-	<algorithm>
-
