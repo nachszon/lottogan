@@ -1,5 +1,5 @@
 /*lottogan
-version 1.2
+version 1.3
 author: Nachszon
 Program to generate random numbers
 may 2020
@@ -11,6 +11,12 @@ Duplicate are remove
 
 Release Notes (01.06.2020)
 sort numbers implementation
+
+Relase Notes (21.09.2020)
+1) Increase the number of random iterations to the number of existing combinations to draw six numbers out of 49.
+Number of this combinations: 13983816
+
+2) Adding a resource file infoProg.rc
 
 */
 
@@ -86,8 +92,16 @@ void randomNumbersHandlerClass::m_create_random_numbers_array(int taking_number)
     tab_rand_numb[5]=m_create_one_random_number(1,49);*/
 
 
+    //count of iterations without duplicates
+    int clean_iterations=0;
 
-    while (count_duplicate!=0){
+
+    //max count of iterations without duplicates
+    int max_clean_iterations=13983816;
+
+
+
+    while (clean_iterations!=max_clean_iterations){
 
     count_duplicate=0;
     //create array with random numbers
@@ -111,6 +125,12 @@ void randomNumbersHandlerClass::m_create_random_numbers_array(int taking_number)
             }
 
             }
+
+            if (count_duplicate==0){
+
+                    clean_iterations+=1;
+
+                    }
 
     }
 
