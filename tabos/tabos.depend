@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1631004412 source:d:\dane_laptop\dane_projekty\scrum\tabos\main.cpp
+	<iostream>
+	<algorithm>
+	<ctime>
+
