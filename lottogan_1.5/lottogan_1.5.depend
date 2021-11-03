@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1600868652 source:d:\programowanie\projekty\lottogan\lottogan_1.4\main.cpp
+	<iostream>
+	<ctime>
+	<functional>
+	<algorithm>
+	<fstream>
+
+1600851828 source:d:\programowanie\projekty\lottogan\lottogan_1.4\icoprog.rc
+
+1600868995 source:d:\programowanie\projekty\lottogan\lottogan_1.4\infoprog.rc
+	<windows.h>
+
+1616079809 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.4\icoprog.rc
+
+1616079809 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.4\infoprog.rc
+	<windows.h>
+
+1635925621 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.4\main.cpp
+	<iostream>
+	<ctime>
+	<functional>
+	<algorithm>
+	<fstream>
+
+1616079809 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.5\icoprog.rc
+
+1616079809 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.5\infoprog.rc
+	<windows.h>
+
+1635925621 source:d:\dane_laptop\dane_github\lottogan\lottogan-master\lottogan_1.5\main.cpp
+	<iostream>
+	<ctime>
+	<functional>
+	<algorithm>
+	<fstream>
+
